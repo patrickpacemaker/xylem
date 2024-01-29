@@ -1,0 +1,21 @@
+name: myenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10.13
+  - pandas
+  - matplotlib
+  - numpy
+  - scipy
+  - plotly
+  - ipywidgets
+  - seaborn
+  - mlxtend
+  - xgboost
+  - scikit-learn
+  - mplcursors
+  - statsmodels
+  - pip
+  - pip:
+      - calendar  
